@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(115, 180, 255);
+    color: black;
+}
+
+header > h1 {
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+section {
+    background-color: white;
+    border-radius: 7px;
+    height: 300px;
+    width: 70vw;
+    margin: auto;
+}
+
+div {
+    padding: 30px;
+    font-size:large ;
+}
+
+#txtano {
+    height: 20px;
+    width: 40%;
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-be">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="../hora.js/imagens/favicon-rpg.png" type="image/x-icon">
+    
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="txteano" id="txtano" min="0" >
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc">
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <input type="button" value="Enviar" onclick="verificar()">
+        </div>
+
+        <div id="resposta">
+            Preencha os dados acima para ver os resultados
+        </div>
+
+    </section>
+
+    <footer>
+        &copy; Abalon RPG
+    </footer>
+
+    <script src="condicao.js"></script>
+
+</body>
+</html>

@@ -49,12 +49,12 @@ function finalizar() {
             if (valores[pos] < menor)
                 menor = valores[pos]
         }
-        meida = soma / tot
+        media = soma / tot
         res.innerHTML =''
         res.innerHTML += `<p>Ao todo, temos ${tot} números cadstrados.</p>`
         res.innerHTML += `<p>O maior valor informado foi ${maior}.</p>`
         res.innerHTML += `<p>O menor valor informado foi ${menor}.</p>`
         res.innerHTML += `<p>A soma dos valores é ${soma}.</p>`
-        res.innerHTML += `<p>A media dos valores é ${meida}.</p>`
+        res.innerHTML += `<p>A media dos valores é ${media}.</p>`
     }
 }
